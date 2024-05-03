@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    color:rgba(102, 36, 224, 0.718);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+    border: 1px solid rgba(102, 36, 224, 0.718);
+    border-radius: 20px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgba(102, 36, 224, 0.718);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgba(102, 36, 224, 0.718);
+    background-color:transparent;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgba(102, 36, 224, 0.718);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #d3f8f9;
+    color: white;
+    background-color: red;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(102, 36, 224, 0.718);
+}
+.loginbox a:hover
+{
+    color:red;
+}
+.row{
+    width: 100%;
+    padding: 0px 80px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style-type: none;
+
+}
+.navbar ul li a{
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: rgba(102, 36, 224, 0.718);
+}
+
+.navbar h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(box.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
