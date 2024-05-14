@@ -1,0 +1,29 @@
+body{
+    
+    background-color: lightgoldenrodyellow;
+    
+            
+}
+.head{
+    text-align: center;
+    font-size: 20px;
+;
+}
+li{
+    font-size: 20px;
+}
+.topic{
+    text-align: left;
+}
+.time{
+    text-align: right;
+}
+.marks{
+    text-align: right;
+}
+.display{
+    margin: 40px;
+}
+.container{
+    text-align: right;
+}
