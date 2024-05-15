@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+        .head{
+            text-align: center;
+            font-size: 20px;
+;
+        }
+        li{
+            font-size: 20px;
+        }
+        .topic{
+            text-align: left;
+        }
+        .time{
+            text-align: right;
+        }
+        .marks{
+            text-align: right;
+        }
+        .container{
+            text-align: right;
+        }
+        .display{
+            margin: 30px;
+        }
+        .btn-group{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         border-top: 1px solid #999;
+            margin-top: 10px;
+            padding: 15px 0 7px;
+
+        }
+        .btn-group .info-btn{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 45px;
+            background: #c40094;
+            border: 2px solid #c40094;
+            outline: none;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            box-shadow:0 0 10px rgba(0,0,0,.1);
+            cursor: pointer;
+            transition: .5s;
+            }
+        .btn-group .info-btn.info-btn::nth-child(1){
+            background: #c40094;
+            color:#fff;
+
+            }
+        .btn-group .info-btn.info-btn::nth-child(2){
+            background: #950170;
+            border-color: #950170;
+        }
+       
+        
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html practice test 1</title>
+</head>
+<body>
+    <div class="display">
+    <header class="head">
+    <h2>Practice test 1</h2>
+    <h3>Subject:FEE</h3>
+    <h3 class="topic">Topic: CSS</h3>
+    <section>
+        <div class="container">
+            <h1>00:00</h1>
+        </div>
+    </section>
+    <h3 class="marks">marks:20</h3><br><br>
+</header>
+    <form name="myform">
+    <ol>
+        <li>What is CSS?</li>
+        <input type="radio" name="ans1" value="a">CSS is a style sheet language. <br>
+        <input type="radio" name="ans1" value="b"> CSS is designed to separate the presentation and content, including layout, colors, and fonts.<br>
+        <input type="radio" name="ans1" value="c">  CSS is the language used to style the HTML documents.<br>
+        <input type="radio" name="ans1" value="d"> All of the mentioned.
+        <br><br>
+        <li> Which of the following tag is used to embed css in html page?</li>
+        <input type="radio" name="ans2" value="a"> css<br>
+        <input type="radio" name="ans2" value="b"> !DOCTYPE html<br>
+        <input type="radio" name="ans2" value="c"> script<br>
+        <input type="radio" name="ans2" value="d"> style
+        <br><br>
+        <li>Which of the following CSS selectors are used to specify a group of elements?</li>
+        <input type="radio" name="ans3" value="a">  tag<br>
+        <input type="radio" name="ans3" value="b">id<br>
+        <input type="radio" name="ans3" value="c">  class<br>
+        <input type="radio" name="ans3" value="d"> both class and tag<br><br>
+        <li>Which of the following has introduced text, list, box, margin, border, color, and background properties?</li>
+        <input type="radio" name="ans4" value="a"> HTML<br>
+        <input type="radio" name="ans4" value="b"> PHP<br>
+        <input type="radio" name="ans4" value="c">  CSS<br>
+        <input type="radio" name="ans4" value="d"> Ajax
+        <br><br>
+        <li>Which of the following CSS framework is used to create a responsive design?</li>
+        <input type="radio" name="ans5" value="a">django <br>
+        <input type="radio" name="ans5" value="b"> rails<br>
+        <input type="radio" name="ans5" value="c"> larawell<br>
+        <input type="radio" name="ans5" value="d">bootstrap 
+        <br><br>
+        <li> Which of the following CSS selector is used to specify a rule to bind a particular unique element?</li>
+        <input type="radio" name="ans6" value="a">tag <br>
+        <input type="radio" name="ans6" value="b">id <br>
+        <input type="radio" name="ans6" value="c">class <br>
+        <input type="radio" name="ans6" value="d"> both class and tag
+        <br><br>
+        <li>Which of the following type of HTML tag is used to define an internal style sheet?</li>
+        <input type="radio" name="ans7" value="a"> script<br>
+        <input type="radio" name="ans7" value="b">link <br>
+        <input type="radio" name="ans7" value="c"> class<br>
+        <input type="radio" name="ans7" value="d"> style>
+        <br><br>
+        <li>Which of the following CSS property is used to make the text bold?</li> 
+        <input type="radio" name="ans8" value="a"> text-decoration: bold<br>
+        <input type="radio" name="ans8" value="b">  font-weight: bold<br>
+        <input type="radio" name="ans8" value="c">font-style: bold <br>
+        <input type="radio" name="ans8" value="d">  text-align: bold
+        <br><br>
+        <li>What will be the output of following CSS code snippet?</li>
+         <input type="radio" name="ans9" value="a"> nothings happen <br>
+        <input type="radio" name="ans9" value="b">error occurs <br>
+        <input type="radio" name="ans9" value="c">heading becomes dark-green <br>
+        <input type="radio" name="ans9" value="d"> heading becomes green
+        <br><br>
+        <li> Which of the following CSS style property is used to specify an italic text? </li>
+       <input type="radio" name="ans10" value="a"> style <br>
+        <input type="radio" name="ans10" value="b">font <br>
+         <input type="radio" name="ans10" value="c"> font-style <br>
+        <input type="radio" name="ans10" value="d"> @font-face
+        <br><br>
+        <li>Which of the following are the CSS Extension Prefixes for Webkit?</li>
+        <input type="radio" name="ans11" value="a">-chrome <br>
+        <input type="radio" name="ans11" value="b">-web <br>
+        <input type="radio" name="ans11" value="c"> -o-<br>
+        <input type="radio" name="ans11" value="d">-webkit 
+        <br><br>
+        <li> Which of the following is the correct syntax to link an external style sheet in the HTML file?</li>
+        <input type="radio" name="ans12" value="a"> link rel=”stylesheet” href=”style.css” /<br>
+        <input type="radio" name="ans12" value="b">link rel=”stylesheet” src=”style.css” / <br>
+        <input type="radio" name="ans12" value="c">style rel=”stylesheet” src=”style.css” / <br>
+        <input type="radio" name="ans12" value="d"> style rel=”stylesheet” link=”style.css” /
+        <br><br>
+        <li>Which of the following is the first CSS specification to become an official W3C Recommendation?</li>
+        <input type="radio" name="ans13" value="a"> CSS level 2<br>
+        <input type="radio" name="ans13" value="b"> (X)HTML CSS<br>
+        <input type="radio" name="ans13" value="c"> CSS level 1<br>
+        <input type="radio" name="ans13" value="d"> CSS level 2.1
+        <br><br>
+        <li>Which of the following CSS property sets what kind of line decorations are added to an element, such as underlines, overlines, etc?</li>
+        <input type="radio" name="ans14" value="a"> text-decoration <br>
+        <input type="radio" name="ans14" value="b"> text-style<br>
+        <input type="radio" name="ans14" value="c">text-decoration-line <br>
+        <input type="radio" name="ans14" value="d"> text-line
+        <br><br>
+        <li>Which of the following function defines a linear gradient as a CSS image?</li>
+        <input type="radio" name="ans15" value="a">gradient() <br>
+        <input type="radio" name="ans15" value="b"> linear-gradient()<br>
+        <input type="radio" name="ans15" value="c">grayscale() <br>
+        <input type="radio" name="ans15" value="d">  image()
+        <br><br>
+        <li> Which of the following CSS property can be used to set the image as a border instead of the border style?</li>
+        <input type="radio" name="ans16" value="a"> background-image-source <br>
+        <input type="radio" name="ans16" value="b">background-image <br>
+        <input type="radio" name="ans16" value="c">border-image-source <br>
+        <input type="radio" name="ans16" value="d"> border-image
+        <br><br>
+        <li> Which of the following CSS property defines the different properties of all four sides of an elements border in a single declaration?</li>
+        <input type="radio" name="ans17" value="a"> border-collapse <br>
+        <input type="radio" name="ans17" value="b"> border-width <br>
+        <input type="radio" name="ans17" value="c"> padding <br>
+        <input type="radio" name="ans17" value="d"> border
+        <br><br>
+        <li> Which of the following is the correct way to apply CSS Styles?</li>
+        <input type="radio" name="ans18" value="a">in an external CSS file <br>
+        <input type="radio" name="ans18" value="b">  inside an HTML element<br>
+        <input type="radio" name="ans18" value="c">inside the <head> section of an HTML page <br>
+        <input type="radio" name="ans18" value="d">all of the mentioned 
+        <br><br>
+        <li>Which of the following CSS property sets the font size of text?</li>
+        <input type="radio" name="ans19" value="a">font-size <br>
+        <input type="radio" name="ans19" value="b"> text-size<br>
+        <input type="radio" name="ans19" value="c"> text <br>
+        <input type="radio" name="ans19" value="d">size
+        <br><br>
+        <li>Which of the following is not the property of the CSS box model?</li>
+        <input type="radio" name="ans20" value="a"> margin<br>
+        <input type="radio" name="ans20" value="b"> color<br>
+        <input type="radio" name="ans20" value="c"> width<br>
+        <input type="radio" name="ans20" value="d">  height
+        <br><br><center>
+            <div class="btn-group">
+                <a href="practice test for Fee.html" class="info-btn exit">leave test</a>
+                 <button class="info-btn submit" onclick="check()">submit</button>
+                     </div>
+    </ol>
+    </form>
+    </div>
+<script src="css mcq 1 copy.js"></script>
+    
+</body>
+</html>
