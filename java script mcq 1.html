@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+        .head{
+            text-align: center;
+            font-size: 20px;
+;
+        }
+        li{
+            font-size: 20px;
+        }
+        .topic{
+            text-align: left;
+        }
+        .time{
+            text-align: right;
+        }
+        .marks{
+            text-align: right;
+        }
+        .container{
+            text-align: right;
+        }
+        .display{
+            margin: 30px;
+        }
+        .btn-group{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         border-top: 1px solid #999;
+            margin-top: 10px;
+            padding: 15px 0 7px;
+
+        }
+        .btn-group .info-btn{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 45px;
+            background: #c40094;
+            border: 2px solid #c40094;
+            outline: none;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            box-shadow:0 0 10px rgba(0,0,0,.1);
+            cursor: pointer;
+            transition: .5s;
+            }
+        .btn-group .info-btn.info-btn::nth-child(1){
+            background: #c40094;
+            color:#fff;
+
+            }
+        .btn-group .info-btn.info-btn::nth-child(2){
+            background: #950170;
+            border-color: #950170;
+        }
+       
+        
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html practice test 1</title>
+</head>
+<body>
+    <div class="display">
+    <header class="head">
+    <h2>Practice test 1</h2>
+    <h3>Subject:FEE</h3>
+    <h3 class="topic">Topic: JavaScript</h3>
+    <section>
+        <div class="container">
+            <h1>00:00</h1>
+        </div>
+    </section>
+    <h3 class="marks">marks:20</h3><br><br>
+</header>
+    <form name="myform">
+    <ol>
+        <li> What is JavaScript?</li>
+        <input type="radio" name="ans1" value="a">JavaScript is a scripting language used to make the website interactive <br>
+        <input type="radio" name="ans1" value="b"> JavaScript is an assembly language used to make the website interactive<br>
+        <input type="radio" name="ans1" value="c"> JavaScript is a compiled language used to make the website interactive<br>
+        <input type="radio" name="ans1" value="d">  None of the mentioned
+        <br><br>
+        <li> Which of the following is correct about JavaScript?</li>
+        <input type="radio" name="ans2" value="a"> JavaScript is an Object-Based language<br>
+        <input type="radio" name="ans2" value="b"> JavaScript is Assembly-language<br>
+        <input type="radio" name="ans2" value="c">  JavaScript is an Object-Oriented language<br>
+        <input type="radio" name="ans2" value="d">  JavaScript is a High-level language
+        <br><br>
+        <li>Among the given statements, which statement defines closures in JavaScript?</li>
+        <input type="radio" name="ans3" value="a"> JavaScript is a function that is enclosed with references to its inner function scope<br>
+        <input type="radio" name="ans3" value="b"> JavaScript is a function that is enclosed with references to its lexical environment<br>
+        <input type="radio" name="ans3" value="c"> JavaScript is a function that is enclosed with the object to its inner function scope<br>
+        <input type="radio" name="ans3" value="d"> None of the mentioned<br><br>
+        <li>Arrays in JavaScript are defined by which of the following statements?</li>
+        <input type="radio" name="ans4" value="a">  It is an ordered list of values<br>
+        <input type="radio" name="ans4" value="b"> It is an ordered list of objects<br>
+        <input type="radio" name="ans4" value="c">  It is an ordered list of string<br>
+        <input type="radio" name="ans4" value="d"> It is an ordered list of functions
+        <br><br>
+        <li> Which of the following is not javascript data types?</li>
+        <input type="radio" name="ans5" value="a">Null type <br>
+        <input type="radio" name="ans5" value="b"> Undefined type <br>
+        <input type="radio" name="ans5" value="c"> Number type<br>
+        <input type="radio" name="ans5" value="d"> All of the mentioned
+        <br><br>
+        <li>Where is Client-side JavaScript code is embedded within HTML documents?</li>
+        <input type="radio" name="ans6" value="a"> A URL that uses the special javascript:code<br>
+        <input type="radio" name="ans6" value="b">  A URL that uses the special javascript:protocol<br>
+        <input type="radio" name="ans6" value="c"> A URL that uses the special javascript:encoding <br>
+        <input type="radio" name="ans6" value="d">A URL that uses the special javascript:stack 
+        <br><br>
+        <li> Which of the following object is the main entry point to all client-side JavaScript features and APIs?</li>
+        <input type="radio" name="ans7" value="a">  Position<br>
+        <input type="radio" name="ans7" value="b"> Window<br>
+        <input type="radio" name="ans7" value="c"> Standard<br>
+        <input type="radio" name="ans7" value="d">  Location.
+        <br><br>
+        <li>Which of the following can be used to call a JavaScript Code Snippet?</li> 
+        <input type="radio" name="ans8" value="a"> Function/Method<br>
+        <input type="radio" name="ans8" value="b"> Preprocessor<br>
+        <input type="radio" name="ans8" value="c">Triggering Event <br>
+        <input type="radio" name="ans8" value="d"> RMI
+        <br><br>
+        <li>Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine?</li>
+         <input type="radio" name="ans9" value="a">will work perfectly well on a Windows Machine <br>
+        <input type="radio" name="ans9" value="b"> will be displayed as JavaScript text on the browser <br>
+        <input type="radio" name="ans9" value="c">will throw errors and exceptions <br>
+        <input type="radio" name="ans9" value="d">  must be restricted to a Unix Machine only
+        <br><br>
+        <li> Which of the following scoping type does JavaScript use?</li>
+       <input type="radio" name="ans10" value="a"> Sequential <br>
+        <input type="radio" name="ans10" value="b">Segmental <br>
+         <input type="radio" name="ans10" value="c">Lexical <br>
+        <input type="radio" name="ans10" value="d"> Literal
+        <br><br>
+        <li>What is the basic difference between JavaScript and Java?</li>
+        <input type="radio" name="ans11" value="a">Functions are considered as fields <br>
+        <input type="radio" name="ans11" value="b"> Functions are values, and there is no hard distinction between methods and fields<br>
+        <input type="radio" name="ans11" value="c"> Variables are specific<br>
+        <input type="radio" name="ans11" value="d"> There is no difference
+        <br><br>
+        <li></li>
+        <input type="radio" name="ans12" value="a"> <br>
+        <input type="radio" name="ans12" value="b"> <br>
+        <input type="radio" name="ans12" value="c"> <br>
+        <input type="radio" name="ans12" value="d"> 
+        <br><br>
+        <li></li>
+        <input type="radio" name="ans13" value="a"> <br>
+        <input type="radio" name="ans13" value="b"> <br>
+        <input type="radio" name="ans13" value="c"> <br>
+        <input type="radio" name="ans13" value="d"> 
+        <br><br>
+        <li>. What will be the output of the following JavaScript code?<br>var quiz=[1,2,3]; <br> 
+            var js=[6,7,8];  <br>
+            var result=quiz.concat(js);  <br>
+            document.writeln(result);</li>
+        <input type="radio" name="ans14" value="a">  1, 2, 3, 6, 7, 8<br>
+        <input type="radio" name="ans14" value="b"> 123<br>
+        <input type="radio" name="ans14" value="c"> 1, 2, 3 <br>
+        <input type="radio" name="ans14" value="d">  Error
+        <br><br>
+        <li> Why JavaScript Engine is needed?</li>
+        <input type="radio" name="ans15" value="a">Both Compiling & Interpreting the JavaScript <br>
+        <input type="radio" name="ans15" value="b">  Parsing the javascript<br>
+        <input type="radio" name="ans15" value="c"> Interpreting the JavaScript <br>
+        <input type="radio" name="ans15" value="d">Compiling the JavaScript 
+        <br><br>
+        <li>What will be the function of the following JavaScript program?<br>var scope = "js scope";<br>
+            function checkscope() <br>
+            {<br>
+                var scope = "javascript scope"; <br>
+                function f()<br>
+                { <br>
+                     return scope; <br>
+                }<br>
+                return f;<br>
+            }</li>
+        <input type="radio" name="ans16" value="a">Returns the value in scope <br>
+        <input type="radio" name="ans16" value="b">Returns value null <br>
+        <input type="radio" name="ans16" value="c">Shows an error message <br>
+        <input type="radio" name="ans16" value="d">Returns exception
+        <br><br>
+        <li> What will be the output of the following JavaScript code?<br>int a=0;<br>
+            for(a;a<5;a++);<br.
+            console.log(a);</li>
+        <input type="radio" name="ans17" value="a">4 <br>
+        <input type="radio" name="ans17" value="b">5 <br>
+        <input type="radio" name="ans17" value="c">0 <br>
+        <input type="radio" name="ans17" value="d"> error
+        <br><br>
+        <li>Which of the following methods/operation does javascript use instead of == and !=?</li>
+        <input type="radio" name="ans18" value="a"> JavaScript uses equalto() <br>
+        <input type="radio" name="ans18" value="b"> JavaScript uses equals() and notequals() instead<br>
+        <input type="radio" name="ans18" value="c"> JavaScript uses bitwise checking<br>
+        <input type="radio" name="ans18" value="d">  JavaScript uses === and !== instead
+        <br><br>
+        <li> What will be the result or type of error if p is not defined in the following JavaScript code snippet?<Br>console.log(p)</li>
+        <input type="radio" name="ans19" value="a">Value not found Error <br>
+        <input type="radio" name="ans19" value="b"> Reference Error <br>
+        <input type="radio" name="ans19" value="c">Null <br>
+        <input type="radio" name="ans19" value="d">Zero
+        <br><br>
+        <li> What is the prototype represents in the following JavaScript code snippet?<br>function javascript() {};</li>
+        <input type="radio" name="ans20" value="a">Not valid <br>
+        <input type="radio" name="ans20" value="b">  Prototype of a function<br>
+        <input type="radio" name="ans20" value="c">Function javascript <br>
+        <input type="radio" name="ans20" value="d">  A custom constructor
+        <br><br><center>
+            <div class="btn-group">
+               <a href="practice test for Fee.html" class="info-btn exit">leave test</a>
+                <button class="info-btn submit" onclick="check()">submit</button>
+                    </div>
+
+    </ol>
+    </form>
+    </div>
+<script src="javascript mcq.js"></script>
+    
+</body>
+</html>
